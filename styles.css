@@ -1,0 +1,94 @@
+body{
+     font-family: 'Ubuntu', sans-serif;
+     text-align: center;
+}
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #FFE3E3;
+    padding-bottom: 12%;
+}
+h2{
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+h3{
+    color: #03506F;
+}
+.container-fluid{
+    padding: 3% 8% 3% 10%;
+}
+.coloured-sect{
+    background-color: #03506F;
+}
+/* title section */
+#title{
+      text-align: left;
+}
+.navbar{
+    padding-bottom: 4%;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.7rem;
+}
+.nav-item{
+    padding: 0 14px;
+}
+.nav-link{
+    font-weight:bold;
+}
+
+/* features section */
+
+.kaju{
+   padding: 5%;
+}
+.fet{
+    color:#03506F;
+    font-size: 3rem;
+}
+
+/* testimonials section */
+#testimonials{
+  color: #FFE3E3;
+}
+.test-img{
+    padding: 2.5%;
+}
+.carousel-item{
+    padding: 2% 3.5% 2% 3.5%;
+}
+
+/*Pricing section*/
+.crd{
+    padding: 2% 1% 2% 1%;
+}
+
+/*Call to action*/
+.cta-head{
+    color: #FFE3E3;
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+.btn{
+    margin: 1.5% 2% 1.5% 2%;
+}
+
+/*Footer section*/
+#footer{
+    font-weight: bold;
+}
+.logo{
+    padding: 1%;
+}
+
+@media (max-width: 561px){
+    #title{
+        text-align: center;
+    }
+}
+
